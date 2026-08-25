@@ -1,0 +1,7 @@
+# Local secrets — never commit a real API key.
+Routly/Secrets.plist
+
+# Xcode user state
+xcuserdata/
+*.xcuserstate
+.DS_Store

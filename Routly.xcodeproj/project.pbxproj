@@ -6,63 +6,106 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		5EB10009300F3EBC005883F2 /* RoutlyWidgets.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 5EB10001300F3EBC005883F2 /* RoutlyWidgets.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
-		5E3A20A4303D187C00096FBF /* PBXContainerItemProxy */ = {
+		5EA7705F300F3EBC005883F2 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 5E3A2089303D187A00096FBF /* Project object */;
+			containerPortal = 5EA77044300F3EB9005883F2 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 5E3A2090303D187A00096FBF;
+			remoteGlobalIDString = 5EA7704B300F3EB9005883F2;
 			remoteInfo = Routly;
 		};
-		5E3A20AE303D187C00096FBF /* PBXContainerItemProxy */ = {
+		5EA77069300F3EBC005883F2 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 5E3A2089303D187A00096FBF /* Project object */;
+			containerPortal = 5EA77044300F3EB9005883F2 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 5E3A2090303D187A00096FBF;
+			remoteGlobalIDString = 5EA7704B300F3EB9005883F2;
 			remoteInfo = Routly;
+		};
+		5EB1000A300F3EBC005883F2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5EA77044300F3EB9005883F2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5EB10004300F3EBC005883F2;
+			remoteInfo = RoutlyWidgets;
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		5EB10008300F3EBC005883F2 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				5EB10009300F3EBC005883F2 /* RoutlyWidgets.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
-		5E3A2091303D187A00096FBF /* Routly.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Routly.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		5E3A20A3303D187C00096FBF /* RoutlyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RoutlyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		5E3A20AD303D187C00096FBF /* RoutlyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RoutlyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5EA7704C300F3EB9005883F2 /* Routly.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Routly.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5EA7705E300F3EBC005883F2 /* RoutlyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RoutlyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5EA77068300F3EBC005883F2 /* RoutlyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RoutlyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5EB10001300F3EBC005883F2 /* RoutlyWidgets.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = RoutlyWidgets.appex; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		5E3A2093303D187A00096FBF /* Routly */ = {
+		5EA7704E300F3EB9005883F2 /* Routly */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = Routly;
 			sourceTree = "<group>";
 		};
-		5E3A20A6303D187C00096FBF /* RoutlyTests */ = {
+		5EA77061300F3EBC005883F2 /* RoutlyTests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = RoutlyTests;
 			sourceTree = "<group>";
 		};
-		5E3A20B0303D187C00096FBF /* RoutlyUITests */ = {
+		5EA7706B300F3EBC005883F2 /* RoutlyUITests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = RoutlyUITests;
+			sourceTree = "<group>";
+		};
+		5EB10002300F3EBC005883F2 /* RoutlyWidgets */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = RoutlyWidgets;
+			sourceTree = "<group>";
+		};
+		5EB10003300F3EBC005883F2 /* RoutlyShared */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = RoutlyShared;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		5E3A208E303D187A00096FBF /* Frameworks */ = {
+		5EA77049300F3EB9005883F2 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5E3A20A0303D187C00096FBF /* Frameworks */ = {
+		5EA7705B300F3EBC005883F2 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5E3A20AA303D187C00096FBF /* Frameworks */ = {
+		5EA77065300F3EBC005883F2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5EB10006300F3EBC005883F2 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -72,22 +115,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		5E3A2088303D187A00096FBF = {
+		5EA77043300F3EB9005883F2 = {
 			isa = PBXGroup;
 			children = (
-				5E3A2093303D187A00096FBF /* Routly */,
-				5E3A20A6303D187C00096FBF /* RoutlyTests */,
-				5E3A20B0303D187C00096FBF /* RoutlyUITests */,
-				5E3A2092303D187A00096FBF /* Products */,
+				5EA7704E300F3EB9005883F2 /* Routly */,
+				5EB10003300F3EBC005883F2 /* RoutlyShared */,
+				5EB10002300F3EBC005883F2 /* RoutlyWidgets */,
+				5EA77061300F3EBC005883F2 /* RoutlyTests */,
+				5EA7706B300F3EBC005883F2 /* RoutlyUITests */,
+				5EA7704D300F3EB9005883F2 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		5E3A2092303D187A00096FBF /* Products */ = {
+		5EA7704D300F3EB9005883F2 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				5E3A2091303D187A00096FBF /* Routly.app */,
-				5E3A20A3303D187C00096FBF /* RoutlyTests.xctest */,
-				5E3A20AD303D187C00096FBF /* RoutlyUITests.xctest */,
+				5EA7704C300F3EB9005883F2 /* Routly.app */,
+				5EA7705E300F3EBC005883F2 /* RoutlyTests.xctest */,
+				5EA77068300F3EBC005883F2 /* RoutlyUITests.xctest */,
+				5EB10001300F3EBC005883F2 /* RoutlyWidgets.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -95,134 +141,173 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		5E3A2090303D187A00096FBF /* Routly */ = {
+		5EA7704B300F3EB9005883F2 /* Routly */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5E3A20B7303D187C00096FBF /* Build configuration list for PBXNativeTarget "Routly" */;
+			buildConfigurationList = 5EA77072300F3EBC005883F2 /* Build configuration list for PBXNativeTarget "Routly" */;
 			buildPhases = (
-				5E3A208D303D187A00096FBF /* Sources */,
-				5E3A208E303D187A00096FBF /* Frameworks */,
-				5E3A208F303D187A00096FBF /* Resources */,
+				5EA77048300F3EB9005883F2 /* Sources */,
+				5EA77049300F3EB9005883F2 /* Frameworks */,
+				5EA7704A300F3EB9005883F2 /* Resources */,
+				5EB10008300F3EBC005883F2 /* Embed Foundation Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				5EB1000B300F3EBC005883F2 /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
-				5E3A2093303D187A00096FBF /* Routly */,
+				5EA7704E300F3EB9005883F2 /* Routly */,
+				5EB10003300F3EBC005883F2 /* RoutlyShared */,
 			);
 			name = Routly;
 			packageProductDependencies = (
 			);
 			productName = Routly;
-			productReference = 5E3A2091303D187A00096FBF /* Routly.app */;
+			productReference = 5EA7704C300F3EB9005883F2 /* Routly.app */;
 			productType = "com.apple.product-type.application";
 		};
-		5E3A20A2303D187C00096FBF /* RoutlyTests */ = {
+		5EA7705D300F3EBC005883F2 /* RoutlyTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5E3A20BA303D187C00096FBF /* Build configuration list for PBXNativeTarget "RoutlyTests" */;
+			buildConfigurationList = 5EA77075300F3EBC005883F2 /* Build configuration list for PBXNativeTarget "RoutlyTests" */;
 			buildPhases = (
-				5E3A209F303D187C00096FBF /* Sources */,
-				5E3A20A0303D187C00096FBF /* Frameworks */,
-				5E3A20A1303D187C00096FBF /* Resources */,
+				5EA7705A300F3EBC005883F2 /* Sources */,
+				5EA7705B300F3EBC005883F2 /* Frameworks */,
+				5EA7705C300F3EBC005883F2 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				5E3A20A5303D187C00096FBF /* PBXTargetDependency */,
+				5EA77060300F3EBC005883F2 /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
-				5E3A20A6303D187C00096FBF /* RoutlyTests */,
+				5EA77061300F3EBC005883F2 /* RoutlyTests */,
 			);
 			name = RoutlyTests;
 			packageProductDependencies = (
 			);
 			productName = RoutlyTests;
-			productReference = 5E3A20A3303D187C00096FBF /* RoutlyTests.xctest */;
+			productReference = 5EA7705E300F3EBC005883F2 /* RoutlyTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		5E3A20AC303D187C00096FBF /* RoutlyUITests */ = {
+		5EA77067300F3EBC005883F2 /* RoutlyUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5E3A20BD303D187C00096FBF /* Build configuration list for PBXNativeTarget "RoutlyUITests" */;
+			buildConfigurationList = 5EA77078300F3EBC005883F2 /* Build configuration list for PBXNativeTarget "RoutlyUITests" */;
 			buildPhases = (
-				5E3A20A9303D187C00096FBF /* Sources */,
-				5E3A20AA303D187C00096FBF /* Frameworks */,
-				5E3A20AB303D187C00096FBF /* Resources */,
+				5EA77064300F3EBC005883F2 /* Sources */,
+				5EA77065300F3EBC005883F2 /* Frameworks */,
+				5EA77066300F3EBC005883F2 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				5E3A20AF303D187C00096FBF /* PBXTargetDependency */,
+				5EA7706A300F3EBC005883F2 /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
-				5E3A20B0303D187C00096FBF /* RoutlyUITests */,
+				5EA7706B300F3EBC005883F2 /* RoutlyUITests */,
 			);
 			name = RoutlyUITests;
 			packageProductDependencies = (
 			);
 			productName = RoutlyUITests;
-			productReference = 5E3A20AD303D187C00096FBF /* RoutlyUITests.xctest */;
+			productReference = 5EA77068300F3EBC005883F2 /* RoutlyUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		5EB10004300F3EBC005883F2 /* RoutlyWidgets */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5EB1000E300F3EBC005883F2 /* Build configuration list for PBXNativeTarget "RoutlyWidgets" */;
+			buildPhases = (
+				5EB10005300F3EBC005883F2 /* Sources */,
+				5EB10006300F3EBC005883F2 /* Frameworks */,
+				5EB10007300F3EBC005883F2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				5EB10002300F3EBC005883F2 /* RoutlyWidgets */,
+				5EB10003300F3EBC005883F2 /* RoutlyShared */,
+			);
+			name = RoutlyWidgets;
+			packageProductDependencies = (
+			);
+			productName = RoutlyWidgets;
+			productReference = 5EB10001300F3EBC005883F2 /* RoutlyWidgets.appex */;
+			productType = "com.apple.product-type.app-extension";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		5E3A2089303D187A00096FBF /* Project object */ = {
+		5EA77044300F3EB9005883F2 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1620;
 				LastUpgradeCheck = 1620;
 				TargetAttributes = {
-					5E3A2090303D187A00096FBF = {
+					5EA7704B300F3EB9005883F2 = {
 						CreatedOnToolsVersion = 16.2;
 					};
-					5E3A20A2303D187C00096FBF = {
+					5EA7705D300F3EBC005883F2 = {
 						CreatedOnToolsVersion = 16.2;
-						TestTargetID = 5E3A2090303D187A00096FBF;
+						TestTargetID = 5EA7704B300F3EB9005883F2;
 					};
-					5E3A20AC303D187C00096FBF = {
+					5EA77067300F3EBC005883F2 = {
 						CreatedOnToolsVersion = 16.2;
-						TestTargetID = 5E3A2090303D187A00096FBF;
+						TestTargetID = 5EA7704B300F3EB9005883F2;
+					};
+					5EB10004300F3EBC005883F2 = {
+						CreatedOnToolsVersion = 16.2;
 					};
 				};
 			};
-			buildConfigurationList = 5E3A208C303D187A00096FBF /* Build configuration list for PBXProject "Routly" */;
+			buildConfigurationList = 5EA77047300F3EB9005883F2 /* Build configuration list for PBXProject "Routly" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 				Base,
+				es,
+				"pt-BR",
 			);
-			mainGroup = 5E3A2088303D187A00096FBF;
+			mainGroup = 5EA77043300F3EB9005883F2;
 			minimizedProjectReferenceProxies = 1;
 			preferredProjectObjectVersion = 77;
-			productRefGroup = 5E3A2092303D187A00096FBF /* Products */;
+			productRefGroup = 5EA7704D300F3EB9005883F2 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				5E3A2090303D187A00096FBF /* Routly */,
-				5E3A20A2303D187C00096FBF /* RoutlyTests */,
-				5E3A20AC303D187C00096FBF /* RoutlyUITests */,
+				5EA7704B300F3EB9005883F2 /* Routly */,
+				5EB10004300F3EBC005883F2 /* RoutlyWidgets */,
+				5EA7705D300F3EBC005883F2 /* RoutlyTests */,
+				5EA77067300F3EBC005883F2 /* RoutlyUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		5E3A208F303D187A00096FBF /* Resources */ = {
+		5EA7704A300F3EB9005883F2 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5E3A20A1303D187C00096FBF /* Resources */ = {
+		5EA7705C300F3EBC005883F2 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5E3A20AB303D187C00096FBF /* Resources */ = {
+		5EA77066300F3EBC005883F2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5EB10007300F3EBC005883F2 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -232,21 +317,28 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		5E3A208D303D187A00096FBF /* Sources */ = {
+		5EA77048300F3EB9005883F2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5E3A209F303D187C00096FBF /* Sources */ = {
+		5EA7705A300F3EBC005883F2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5E3A20A9303D187C00096FBF /* Sources */ = {
+		5EA77064300F3EBC005883F2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5EB10005300F3EBC005883F2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -256,20 +348,25 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		5E3A20A5303D187C00096FBF /* PBXTargetDependency */ = {
+		5EA77060300F3EBC005883F2 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 5E3A2090303D187A00096FBF /* Routly */;
-			targetProxy = 5E3A20A4303D187C00096FBF /* PBXContainerItemProxy */;
+			target = 5EA7704B300F3EB9005883F2 /* Routly */;
+			targetProxy = 5EA7705F300F3EBC005883F2 /* PBXContainerItemProxy */;
 		};
-		5E3A20AF303D187C00096FBF /* PBXTargetDependency */ = {
+		5EA7706A300F3EBC005883F2 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 5E3A2090303D187A00096FBF /* Routly */;
-			targetProxy = 5E3A20AE303D187C00096FBF /* PBXContainerItemProxy */;
+			target = 5EA7704B300F3EB9005883F2 /* Routly */;
+			targetProxy = 5EA77069300F3EBC005883F2 /* PBXContainerItemProxy */;
+		};
+		5EB1000B300F3EBC005883F2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5EB10004300F3EBC005883F2 /* RoutlyWidgets */;
+			targetProxy = 5EB1000A300F3EBC005883F2 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		5E3A20B5303D187C00096FBF /* Debug */ = {
+		5EA77070300F3EBC005883F2 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -332,7 +429,7 @@
 			};
 			name = Debug;
 		};
-		5E3A20B6303D187C00096FBF /* Release */ = {
+		5EA77071300F3EBC005883F2 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -388,22 +485,32 @@
 			};
 			name = Release;
 		};
-		5E3A20B8303D187C00096FBF /* Debug */ = {
+		5EA77073300F3EBC005883F2 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"ASSETCATALOG_COMPILER_APPICON_NAME[sdk=iphoneos*]" = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Config/Routly.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Routly/Preview Content\"";
 				DEVELOPMENT_TEAM = 52MYCXYDWA;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Config/Routly-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = Routly;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity";
+				INFOPLIST_KEY_NSCalendarsFullAccessUsageDescription = "Used to add your events to your calendar, and to keep them up to date there when you change or delete them in Routly.";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Used to capture what you say when adding items by voice.";
+				INFOPLIST_KEY_NSSpeechRecognitionUsageDescription = "Used to turn your spoken capture into schedule items, on device.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -417,22 +524,31 @@
 			};
 			name = Debug;
 		};
-		5E3A20B9303D187C00096FBF /* Release */ = {
+		5EA77074300F3EBC005883F2 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Config/Routly.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Routly/Preview Content\"";
 				DEVELOPMENT_TEAM = 52MYCXYDWA;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Config/Routly-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = Routly;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity";
+				INFOPLIST_KEY_NSCalendarsFullAccessUsageDescription = "Used to add your events to your calendar, and to keep them up to date there when you change or delete them in Routly.";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Used to capture what you say when adding items by voice.";
+				INFOPLIST_KEY_NSSpeechRecognitionUsageDescription = "Used to turn your spoken capture into schedule items, on device.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -446,13 +562,12 @@
 			};
 			name = Release;
 		};
-		5E3A20BB303D187C00096FBF /* Debug */ = {
+		5EA77076300F3EBC005883F2 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 52MYCXYDWA;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
 				MARKETING_VERSION = 1.0;
@@ -465,13 +580,12 @@
 			};
 			name = Debug;
 		};
-		5E3A20BC303D187C00096FBF /* Release */ = {
+		5EA77077300F3EBC005883F2 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 52MYCXYDWA;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
 				MARKETING_VERSION = 1.0;
@@ -484,12 +598,11 @@
 			};
 			name = Release;
 		};
-		5E3A20BE303D187C00096FBF /* Debug */ = {
+		5EA77079300F3EBC005883F2 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 52MYCXYDWA;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.FilipOscar.RoutlyUITests;
@@ -501,12 +614,11 @@
 			};
 			name = Debug;
 		};
-		5E3A20BF303D187C00096FBF /* Release */ = {
+		5EA7707A300F3EBC005883F2 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 52MYCXYDWA;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.FilipOscar.RoutlyUITests;
@@ -515,49 +627,116 @@
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = Routly;
+			};
+			name = Release;
+		};
+		5EB1000C300F3EBC005883F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_ENTITLEMENTS = Config/RoutlyWidgets.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 52MYCXYDWA;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Config/RoutlyWidgets-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = Routly;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.FilipOscar.Routly.Widgets;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5EB1000D300F3EBC005883F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_ENTITLEMENTS = Config/RoutlyWidgets.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 52MYCXYDWA;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Config/RoutlyWidgets-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = Routly;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.FilipOscar.Routly.Widgets;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		5E3A208C303D187A00096FBF /* Build configuration list for PBXProject "Routly" */ = {
+		5EA77047300F3EB9005883F2 /* Build configuration list for PBXProject "Routly" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				5E3A20B5303D187C00096FBF /* Debug */,
-				5E3A20B6303D187C00096FBF /* Release */,
+				5EA77070300F3EBC005883F2 /* Debug */,
+				5EA77071300F3EBC005883F2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5E3A20B7303D187C00096FBF /* Build configuration list for PBXNativeTarget "Routly" */ = {
+		5EA77072300F3EBC005883F2 /* Build configuration list for PBXNativeTarget "Routly" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				5E3A20B8303D187C00096FBF /* Debug */,
-				5E3A20B9303D187C00096FBF /* Release */,
+				5EA77073300F3EBC005883F2 /* Debug */,
+				5EA77074300F3EBC005883F2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5E3A20BA303D187C00096FBF /* Build configuration list for PBXNativeTarget "RoutlyTests" */ = {
+		5EA77075300F3EBC005883F2 /* Build configuration list for PBXNativeTarget "RoutlyTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				5E3A20BB303D187C00096FBF /* Debug */,
-				5E3A20BC303D187C00096FBF /* Release */,
+				5EA77076300F3EBC005883F2 /* Debug */,
+				5EA77077300F3EBC005883F2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5E3A20BD303D187C00096FBF /* Build configuration list for PBXNativeTarget "RoutlyUITests" */ = {
+		5EA77078300F3EBC005883F2 /* Build configuration list for PBXNativeTarget "RoutlyUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				5E3A20BE303D187C00096FBF /* Debug */,
-				5E3A20BF303D187C00096FBF /* Release */,
+				5EA77079300F3EBC005883F2 /* Debug */,
+				5EA7707A300F3EBC005883F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5EB1000E300F3EBC005883F2 /* Build configuration list for PBXNativeTarget "RoutlyWidgets" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5EB1000C300F3EBC005883F2 /* Debug */,
+				5EB1000D300F3EBC005883F2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 5E3A2089303D187A00096FBF /* Project object */;
+	rootObject = 5EA77044300F3EB9005883F2 /* Project object */;
 }
