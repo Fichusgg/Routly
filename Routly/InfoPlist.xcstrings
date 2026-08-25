@@ -1,99 +1,99 @@
 {
-  "sourceLanguage": "en",
-  "strings": {
-    "CFBundleDisplayName": {
-      "comment": "Bundle display name",
-      "extractionState": "extracted_with_value",
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "new",
-            "value": "Routly"
+  "sourceLanguage" : "en",
+  "strings" : {
+    "CFBundleDisplayName" : {
+      "comment" : "Bundle display name",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Routly"
           }
         }
       }
     },
-    "CFBundleName": {
-      "comment": "Bundle name",
-      "extractionState": "extracted_with_value",
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "new",
-            "value": "RoutineOrganizer"
+    "CFBundleName" : {
+      "comment" : "Bundle name",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Routly"
           }
         }
       }
     },
-    "NSCalendarsFullAccessUsageDescription": {
-      "extractionState": "manual",
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Used to add your events to your calendar, and to keep them up to date there when you change or delete them in Routly."
+    "NSCalendarsFullAccessUsageDescription" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Used to add your events to your calendar, and to keep them up to date there when you change or delete them in Routly."
           }
         },
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Se usa para añadir tus eventos a tu calendario y mantenerlos al día allí cuando los cambias o los eliminas en Routly."
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Se usa para añadir tus eventos a tu calendario y mantenerlos al día allí cuando los cambias o los eliminas en Routly."
           }
         },
-        "pt-BR": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Usado para adicionar seus eventos ao seu calendário e mantê-los atualizados lá quando você os altera ou exclui no Routly."
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Usado para adicionar seus eventos ao seu calendário e mantê-los atualizados lá quando você os altera ou exclui no Routly."
           }
         }
       }
     },
-    "NSMicrophoneUsageDescription": {
-      "extractionState": "manual",
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Used to capture what you say when adding items by voice."
+    "NSMicrophoneUsageDescription" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Used to capture what you say when adding items by voice."
           }
         },
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Se usa para captar lo que dices al añadir elementos por voz."
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Se usa para captar lo que dices al añadir elementos por voz."
           }
         },
-        "pt-BR": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Usado para captar o que você diz ao adicionar itens por voz."
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Usado para captar o que você diz ao adicionar itens por voz."
           }
         }
       }
     },
-    "NSSpeechRecognitionUsageDescription": {
-      "extractionState": "manual",
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Used to turn your spoken capture into schedule items, on device."
+    "NSSpeechRecognitionUsageDescription" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Used to turn your spoken capture into schedule items, on device."
           }
         },
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Se usa para convertir lo que dictas en elementos de tu agenda, en el propio dispositivo."
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Se usa para convertir lo que dictas en elementos de tu agenda, en el propio dispositivo."
           }
         },
-        "pt-BR": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Usado para transformar o que você dita em itens da sua agenda, no próprio aparelho."
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Usado para transformar o que você dita em itens da sua agenda, no próprio aparelho."
           }
         }
       }
     }
   },
-  "version": "1.0"
+  "version" : "1.0"
 }
